@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Code for: Exact aliasing blind spots in out-of-distribution detection with data re-uploading quantum neural networks"
+authors:
+  - family-names: Tripathi
+    given-names: Atul
+    orcid: "https://orcid.org/0009-0001-1183-4890"
+    affiliation: "Maulana Azad National Institute of Technology, Bhopal"
+  - family-names: Rasool
+    given-names: Akhtar
+    orcid: "https://orcid.org/0000-0001-9964-2414"
+    affiliation: "Maulana Azad National Institute of Technology, Bhopal"
+  - family-names: Khare
+    given-names: Nilay
+    orcid: "https://orcid.org/0000-0003-0450-9157"
+    affiliation: "Maulana Azad National Institute of Technology, Bhopal"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-18"

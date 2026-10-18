@@ -1,0 +1,7 @@
+{
+  "grad_check_max_abs_err_trainable_freq=False": 1.3603216469926238e-10,
+  "grad_check_max_abs_err_trainable_freq=True": 1.5123743923872723e-10,
+  "alias_max_logit_diff_integer_freq": 4.496403249731884e-15,
+  "alias_max_grad_score_diff_integer_freq": 5.773159728050814e-15,
+  "alias_max_logit_diff_incommensurate": 1.7449488002272135
+}

@@ -1,0 +1,352 @@
+[12:37:04] MODE=FULL  datasets=['synth2d', 'wine_red_white', 'mnist_fmnist', 'covertype', 'digits_split']  seeds=[0, 1, 2]
+[12:37:04] E0  grad_check_max_abs_err_trainable_freq=False: 1.360e-10
+[12:37:04] E0  grad_check_max_abs_err_trainable_freq=True: 1.512e-10
+[12:37:04] E0  alias_max_logit_diff_integer_freq: 4.496e-15
+[12:37:04] E0  alias_max_grad_score_diff_integer_freq: 5.773e-15
+[12:37:04] E0  alias_max_logit_diff_incommensurate: 1.745e+00
+[12:37:04] timing: 1 epoch of 256 samples at 8 qubits = 0.08s
+[12:37:04] loaded synth2d: ID (6000, 2), far (4000, 2)
+[12:37:49] loaded wine_red_white: ID (1599, 11), far (4898, 11)
+[12:48:46] loaded mnist_fmnist: ID (20000, 784), far (5000, 784)
+[12:49:32] loaded covertype: ID (20000, 10), far (5000, 10)
+[12:49:32] loaded digits_split: ID (901, 64), far (896, 64)
+[12:49:34]   synth2d s0 trained qnn[sym] in 2.6s (final loss 0.045)
+[12:49:37]   synth2d s0 trained qnn_ens1[sym] in 2.5s (final loss 0.048)
+[12:49:39]   synth2d s0 trained qnn_ens2[sym] in 2.5s (final loss 0.041)
+[12:49:42]   synth2d s0 trained qnn_ens3[sym] in 2.8s (final loss 0.047)
+[12:49:45]   synth2d s0 trained qnn_ens4[sym] in 2.6s (final loss 0.049)
+[12:49:48]   synth2d s0 trained qnn_incomm[sym] in 2.6s (final loss 0.038)
+[12:49:50]   synth2d s0 trained qnn_gdrop[sym] in 2.9s (final loss 0.070)
+[12:49:53]   synth2d s0 trained qnn[half] in 2.5s (final loss 0.052)
+[12:49:55]   synth2d s0 trained qnn_ens1[half] in 2.5s (final loss 0.046)
+[12:49:58]   synth2d s0 trained qnn_ens2[half] in 2.5s (final loss 0.035)
+[12:50:00]   synth2d s0 trained qnn_ens3[half] in 2.6s (final loss 0.040)
+[12:50:03]   synth2d s0 trained qnn_ens4[half] in 2.5s (final loss 0.039)
+[12:50:05]   synth2d s0 trained qnn_incomm[half] in 2.5s (final loss 0.045)
+[12:50:08]   synth2d s0 trained qnn_gdrop[half] in 2.4s (final loss 0.057)
+[12:50:10]   synth2d s0 trained qnn_squash in 2.5s (final loss 0.049)
+[12:50:11]   synth2d s0 trained mlp in 0.3s
+[12:50:12]   synth2d s0 trained mlp_ens in 1.5s
+[12:50:12]   synth2d s0 trained svm in 0.0s
+[12:50:13]   synth2d s0 trained gp in 0.4s
+[12:50:13]   synth2d s0 trained rff in 0.1s
+[12:50:13]   synth2d s0 trained knn in 0.0s
+[12:50:25] done synth2d seed 0 in 0.9 min
+[12:50:27]   synth2d s1 trained qnn[sym] in 2.5s (final loss 0.034)
+[12:50:30]   synth2d s1 trained qnn_ens1[sym] in 2.6s (final loss 0.026)
+[12:50:32]   synth2d s1 trained qnn_ens2[sym] in 2.5s (final loss 0.049)
+[12:50:35]   synth2d s1 trained qnn_ens3[sym] in 2.5s (final loss 0.047)
+[12:50:37]   synth2d s1 trained qnn_ens4[sym] in 2.5s (final loss 0.031)
+[12:50:40]   synth2d s1 trained qnn_incomm[sym] in 2.5s (final loss 0.037)
+[12:50:42]   synth2d s1 trained qnn_gdrop[sym] in 2.4s (final loss 0.117)
+[12:50:45]   synth2d s1 trained qnn[half] in 2.4s (final loss 0.030)
+[12:50:47]   synth2d s1 trained qnn_ens1[half] in 2.4s (final loss 0.027)
+[12:50:50]   synth2d s1 trained qnn_ens2[half] in 2.5s (final loss 0.031)
+[12:50:52]   synth2d s1 trained qnn_ens3[half] in 2.5s (final loss 0.034)
+[12:50:55]   synth2d s1 trained qnn_ens4[half] in 2.5s (final loss 0.025)
+[12:50:57]   synth2d s1 trained qnn_incomm[half] in 2.5s (final loss 0.033)
+[12:51:00]   synth2d s1 trained qnn_gdrop[half] in 2.5s (final loss 0.043)
+[12:51:02]   synth2d s1 trained qnn_squash in 2.4s (final loss 0.026)
+[12:51:02]   synth2d s1 trained mlp in 0.3s
+[12:51:04]   synth2d s1 trained mlp_ens in 1.6s
+[12:51:04]   synth2d s1 trained svm in 0.0s
+[12:51:04]   synth2d s1 trained gp in 0.4s
+[12:51:04]   synth2d s1 trained rff in 0.0s
+[12:51:04]   synth2d s1 trained knn in 0.0s
+[12:51:17] done synth2d seed 1 in 0.9 min
+[12:51:19]   synth2d s2 trained qnn[sym] in 2.5s (final loss 0.043)
+[12:51:22]   synth2d s2 trained qnn_ens1[sym] in 2.5s (final loss 0.044)
+[12:51:24]   synth2d s2 trained qnn_ens2[sym] in 2.5s (final loss 0.042)
+[12:51:27]   synth2d s2 trained qnn_ens3[sym] in 2.6s (final loss 0.041)
+[12:51:29]   synth2d s2 trained qnn_ens4[sym] in 2.5s (final loss 0.048)
+[12:51:32]   synth2d s2 trained qnn_incomm[sym] in 2.5s (final loss 0.037)
+[12:51:34]   synth2d s2 trained qnn_gdrop[sym] in 2.5s (final loss 0.071)
+[12:51:37]   synth2d s2 trained qnn[half] in 2.6s (final loss 0.038)
+[12:51:40]   synth2d s2 trained qnn_ens1[half] in 2.5s (final loss 0.042)
+[12:51:42]   synth2d s2 trained qnn_ens2[half] in 2.5s (final loss 0.033)
+[12:51:45]   synth2d s2 trained qnn_ens3[half] in 2.5s (final loss 0.038)
+[12:51:47]   synth2d s2 trained qnn_ens4[half] in 2.6s (final loss 0.040)
+[12:51:50]   synth2d s2 trained qnn_incomm[half] in 2.5s (final loss 0.036)
+[12:51:52]   synth2d s2 trained qnn_gdrop[half] in 2.5s (final loss 0.062)
+[12:51:55]   synth2d s2 trained qnn_squash in 2.5s (final loss 0.036)
+[12:51:55]   synth2d s2 trained mlp in 0.3s
+[12:51:57]   synth2d s2 trained mlp_ens in 1.7s
+[12:51:57]   synth2d s2 trained svm in 0.0s
+[12:51:57]   synth2d s2 trained gp in 0.4s
+[12:51:57]   synth2d s2 trained rff in 0.0s
+[12:51:57]   synth2d s2 trained knn in 0.0s
+[12:52:09] done synth2d seed 2 in 0.9 min
+[12:52:19]   wine_red_white s0 trained qnn[sym] in 9.4s (final loss 0.485)
+[12:52:28]   wine_red_white s0 trained qnn_ens1[sym] in 9.3s (final loss 0.497)
+[12:52:37]   wine_red_white s0 trained qnn_ens2[sym] in 9.3s (final loss 0.512)
+[12:52:46]   wine_red_white s0 trained qnn_ens3[sym] in 9.3s (final loss 0.484)
+[12:52:56]   wine_red_white s0 trained qnn_ens4[sym] in 9.3s (final loss 0.492)
+[12:53:05]   wine_red_white s0 trained qnn_incomm[sym] in 9.4s (final loss 0.475)
+[12:53:15]   wine_red_white s0 trained qnn_gdrop[sym] in 9.8s (final loss 0.557)
+[12:53:25]   wine_red_white s0 trained qnn[half] in 10.1s (final loss 0.493)
+[12:53:35]   wine_red_white s0 trained qnn_ens1[half] in 10.4s (final loss 0.504)
+[12:53:46]   wine_red_white s0 trained qnn_ens2[half] in 10.9s (final loss 0.497)
+[12:53:58]   wine_red_white s0 trained qnn_ens3[half] in 11.4s (final loss 0.497)
+[12:54:09]   wine_red_white s0 trained qnn_ens4[half] in 11.1s (final loss 0.500)
+[12:54:20]   wine_red_white s0 trained qnn_incomm[half] in 11.5s (final loss 0.495)
+[12:54:32]   wine_red_white s0 trained qnn_gdrop[half] in 11.7s (final loss 0.556)
+[12:54:44]   wine_red_white s0 trained qnn_squash in 11.9s (final loss 0.500)
+[12:54:45]   wine_red_white s0 trained mlp in 0.9s
+[12:54:49]   wine_red_white s0 trained mlp_ens in 4.4s
+[12:54:49]   wine_red_white s0 trained svm in 0.0s
+[12:54:50]   wine_red_white s0 trained gp in 0.3s
+[12:54:50]   wine_red_white s0 trained rff in 0.0s
+[12:54:50]   wine_red_white s0 trained knn in 0.0s
+[12:55:26] done wine_red_white seed 0 in 3.3 min
+[12:55:39]   wine_red_white s1 trained qnn[sym] in 12.5s (final loss 0.452)
+[12:55:51]   wine_red_white s1 trained qnn_ens1[sym] in 12.4s (final loss 0.444)
+[12:56:03]   wine_red_white s1 trained qnn_ens2[sym] in 11.7s (final loss 0.467)
+[12:56:15]   wine_red_white s1 trained qnn_ens3[sym] in 11.9s (final loss 0.459)
+[12:56:27]   wine_red_white s1 trained qnn_ens4[sym] in 11.8s (final loss 0.436)
+[12:56:39]   wine_red_white s1 trained qnn_incomm[sym] in 12.4s (final loss 0.430)
+[12:56:51]   wine_red_white s1 trained qnn_gdrop[sym] in 11.8s (final loss 0.535)
+[12:57:02]   wine_red_white s1 trained qnn[half] in 11.7s (final loss 0.452)
+[12:57:14]   wine_red_white s1 trained qnn_ens1[half] in 11.8s (final loss 0.456)
+[12:57:26]   wine_red_white s1 trained qnn_ens2[half] in 11.6s (final loss 0.452)
+[12:57:37]   wine_red_white s1 trained qnn_ens3[half] in 11.6s (final loss 0.479)
+[12:57:49]   wine_red_white s1 trained qnn_ens4[half] in 11.6s (final loss 0.455)
+[12:58:01]   wine_red_white s1 trained qnn_incomm[half] in 11.6s (final loss 0.463)
+[12:58:13]   wine_red_white s1 trained qnn_gdrop[half] in 11.8s (final loss 0.508)
+[12:58:24]   wine_red_white s1 trained qnn_squash in 11.7s (final loss 0.469)
+[12:58:25]   wine_red_white s1 trained mlp in 0.9s
+[12:58:29]   wine_red_white s1 trained mlp_ens in 4.2s
+[12:58:29]   wine_red_white s1 trained svm in 0.0s
+[12:58:30]   wine_red_white s1 trained gp in 0.4s
+[12:58:30]   wine_red_white s1 trained rff in 0.0s
+[12:58:30]   wine_red_white s1 trained knn in 0.0s
+[12:59:05] done wine_red_white seed 1 in 3.7 min
+[12:59:18]   wine_red_white s2 trained qnn[sym] in 12.2s (final loss 0.459)
+[12:59:30]   wine_red_white s2 trained qnn_ens1[sym] in 12.2s (final loss 0.487)
+[12:59:41]   wine_red_white s2 trained qnn_ens2[sym] in 11.6s (final loss 0.478)
+[12:59:53]   wine_red_white s2 trained qnn_ens3[sym] in 11.9s (final loss 0.490)
+[13:00:05]   wine_red_white s2 trained qnn_ens4[sym] in 12.0s (final loss 0.492)
+[13:00:17]   wine_red_white s2 trained qnn_incomm[sym] in 11.9s (final loss 0.455)
+[13:00:29]   wine_red_white s2 trained qnn_gdrop[sym] in 12.2s (final loss 0.576)
+[13:00:41]   wine_red_white s2 trained qnn[half] in 12.1s (final loss 0.501)
+[13:00:54]   wine_red_white s2 trained qnn_ens1[half] in 12.1s (final loss 0.476)
+[13:01:06]   wine_red_white s2 trained qnn_ens2[half] in 12.1s (final loss 0.470)
+[13:01:18]   wine_red_white s2 trained qnn_ens3[half] in 12.1s (final loss 0.488)
+[13:01:30]   wine_red_white s2 trained qnn_ens4[half] in 12.0s (final loss 0.489)
+[13:01:42]   wine_red_white s2 trained qnn_incomm[half] in 12.2s (final loss 0.461)
+[13:01:54]   wine_red_white s2 trained qnn_gdrop[half] in 12.0s (final loss 0.523)
+[13:02:06]   wine_red_white s2 trained qnn_squash in 12.1s (final loss 0.467)
+[13:02:07]   wine_red_white s2 trained mlp in 0.9s
+[13:02:11]   wine_red_white s2 trained mlp_ens in 4.0s
+[13:02:11]   wine_red_white s2 trained svm in 0.0s
+[13:02:12]   wine_red_white s2 trained gp in 0.4s
+[13:02:12]   wine_red_white s2 trained rff in 0.0s
+[13:02:12]   wine_red_white s2 trained knn in 0.0s
+[13:02:48] done wine_red_white seed 2 in 3.7 min
+[13:03:21]   mnist_fmnist s0 trained qnn[sym] in 33.1s (final loss 0.896)
+[13:03:52]   mnist_fmnist s0 trained qnn_ens1[sym] in 30.4s (final loss 1.079)
+[13:04:22]   mnist_fmnist s0 trained qnn_ens2[sym] in 30.0s (final loss 0.915)
+[13:04:51]   mnist_fmnist s0 trained qnn_ens3[sym] in 29.3s (final loss 1.352)
+[13:05:18]   mnist_fmnist s0 trained qnn_ens4[sym] in 27.5s (final loss 0.986)
+[13:05:47]   mnist_fmnist s0 trained qnn_incomm[sym] in 28.3s (final loss 0.690)
+[13:06:14]   mnist_fmnist s0 trained qnn_gdrop[sym] in 27.6s (final loss 1.190)
+[13:06:48]   mnist_fmnist s0 trained qnn[half] in 34.1s (final loss 0.701)
+[13:07:20]   mnist_fmnist s0 trained qnn_ens1[half] in 31.2s (final loss 0.794)
+[13:07:48]   mnist_fmnist s0 trained qnn_ens2[half] in 28.7s (final loss 0.759)
+[13:08:16]   mnist_fmnist s0 trained qnn_ens3[half] in 27.6s (final loss 0.829)
+[13:08:44]   mnist_fmnist s0 trained qnn_ens4[half] in 28.0s (final loss 0.800)
+[13:09:11]   mnist_fmnist s0 trained qnn_incomm[half] in 27.2s (final loss 0.733)
+[13:09:38]   mnist_fmnist s0 trained qnn_gdrop[half] in 27.1s (final loss 1.107)
+[13:10:08]   mnist_fmnist s0 trained qnn_squash in 29.5s (final loss 0.802)
+[13:10:10]   mnist_fmnist s0 trained mlp in 1.8s
+[13:10:19]   mnist_fmnist s0 trained mlp_ens in 9.5s
+[13:10:19]   mnist_fmnist s0 trained svm in 0.2s
+[13:10:27]   mnist_fmnist s0 trained gp in 7.9s
+[13:10:27]   mnist_fmnist s0 trained rff in 0.1s
+[13:10:27]   mnist_fmnist s0 trained knn in 0.0s
+[13:11:38] done mnist_fmnist seed 0 in 8.8 min
+[13:12:08]   mnist_fmnist s1 trained qnn[sym] in 29.2s (final loss 1.027)
+[13:12:36]   mnist_fmnist s1 trained qnn_ens1[sym] in 28.7s (final loss 0.922)
+[13:13:06]   mnist_fmnist s1 trained qnn_ens2[sym] in 29.6s (final loss 1.142)
+[13:13:34]   mnist_fmnist s1 trained qnn_ens3[sym] in 28.2s (final loss 1.030)
+[13:14:02]   mnist_fmnist s1 trained qnn_ens4[sym] in 27.6s (final loss 0.962)
+[13:14:29]   mnist_fmnist s1 trained qnn_incomm[sym] in 27.3s (final loss 0.622)
+[13:14:56]   mnist_fmnist s1 trained qnn_gdrop[sym] in 27.2s (final loss 1.263)
+[13:15:23]   mnist_fmnist s1 trained qnn[half] in 27.2s (final loss 0.759)
+[13:15:51]   mnist_fmnist s1 trained qnn_ens1[half] in 27.2s (final loss 0.727)
+[13:16:18]   mnist_fmnist s1 trained qnn_ens2[half] in 27.9s (final loss 0.799)
+[13:16:48]   mnist_fmnist s1 trained qnn_ens3[half] in 29.7s (final loss 0.734)
+[13:17:19]   mnist_fmnist s1 trained qnn_ens4[half] in 30.4s (final loss 0.723)
+[13:17:49]   mnist_fmnist s1 trained qnn_incomm[half] in 30.3s (final loss 0.651)
+[13:18:18]   mnist_fmnist s1 trained qnn_gdrop[half] in 28.8s (final loss 1.138)
+[13:18:46]   mnist_fmnist s1 trained qnn_squash in 28.1s (final loss 0.715)
+[13:18:47]   mnist_fmnist s1 trained mlp in 1.5s
+[13:18:58]   mnist_fmnist s1 trained mlp_ens in 10.6s
+[13:18:58]   mnist_fmnist s1 trained svm in 0.2s
+[13:19:04]   mnist_fmnist s1 trained gp in 5.7s
+[13:19:04]   mnist_fmnist s1 trained rff in 0.1s
+[13:19:04]   mnist_fmnist s1 trained knn in 0.0s
+[13:20:11] done mnist_fmnist seed 1 in 8.5 min
+[13:20:40]   mnist_fmnist s2 trained qnn[sym] in 28.8s (final loss 1.225)
+[13:21:08]   mnist_fmnist s2 trained qnn_ens1[sym] in 28.0s (final loss 0.894)
+[13:21:36]   mnist_fmnist s2 trained qnn_ens2[sym] in 27.8s (final loss 0.938)
+[13:22:02]   mnist_fmnist s2 trained qnn_ens3[sym] in 26.0s (final loss 1.204)
+[13:22:30]   mnist_fmnist s2 trained qnn_ens4[sym] in 28.0s (final loss 0.815)
+[13:22:57]   mnist_fmnist s2 trained qnn_incomm[sym] in 27.3s (final loss 0.736)
+[13:23:26]   mnist_fmnist s2 trained qnn_gdrop[sym] in 28.6s (final loss 1.319)
+[13:23:53]   mnist_fmnist s2 trained qnn[half] in 27.3s (final loss 0.632)
+[13:24:21]   mnist_fmnist s2 trained qnn_ens1[half] in 27.9s (final loss 0.734)
+[13:24:50]   mnist_fmnist s2 trained qnn_ens2[half] in 29.1s (final loss 0.860)
+[13:25:19]   mnist_fmnist s2 trained qnn_ens3[half] in 29.3s (final loss 0.782)
+[13:25:48]   mnist_fmnist s2 trained qnn_ens4[half] in 29.0s (final loss 0.722)
+[13:26:20]   mnist_fmnist s2 trained qnn_incomm[half] in 31.5s (final loss 0.592)
+[13:26:53]   mnist_fmnist s2 trained qnn_gdrop[half] in 33.6s (final loss 1.125)
+[13:27:24]   mnist_fmnist s2 trained qnn_squash in 30.9s (final loss 0.799)
+[13:27:26]   mnist_fmnist s2 trained mlp in 1.4s
+[13:27:37]   mnist_fmnist s2 trained mlp_ens in 10.9s
+[13:27:37]   mnist_fmnist s2 trained svm in 0.2s
+[13:27:42]   mnist_fmnist s2 trained gp in 5.3s
+[13:27:42]   mnist_fmnist s2 trained rff in 0.1s
+[13:27:42]   mnist_fmnist s2 trained knn in 0.0s
+[13:28:59] done mnist_fmnist seed 2 in 8.8 min
+[13:29:32]   covertype s0 trained qnn[sym] in 32.9s (final loss 0.517)
+[13:30:03]   covertype s0 trained qnn_ens1[sym] in 31.5s (final loss 0.523)
+[13:30:35]   covertype s0 trained qnn_ens2[sym] in 31.7s (final loss 0.540)
+[13:31:06]   covertype s0 trained qnn_ens3[sym] in 30.9s (final loss 0.547)
+[13:31:37]   covertype s0 trained qnn_ens4[sym] in 30.7s (final loss 0.532)
+[13:32:08]   covertype s0 trained qnn_incomm[sym] in 30.8s (final loss 0.509)
+[13:32:38]   covertype s0 trained qnn_gdrop[sym] in 30.6s (final loss 0.571)
+[13:33:09]   covertype s0 trained qnn[half] in 31.1s (final loss 0.504)
+[13:33:40]   covertype s0 trained qnn_ens1[half] in 31.0s (final loss 0.506)
+[13:34:11]   covertype s0 trained qnn_ens2[half] in 31.3s (final loss 0.525)
+[13:34:40]   covertype s0 trained qnn_ens3[half] in 28.9s (final loss 0.497)
+[13:35:11]   covertype s0 trained qnn_ens4[half] in 30.9s (final loss 0.498)
+[13:35:41]   covertype s0 trained qnn_incomm[half] in 29.9s (final loss 0.507)
+[13:36:10]   covertype s0 trained qnn_gdrop[half] in 28.7s (final loss 0.538)
+[13:36:40]   covertype s0 trained qnn_squash in 30.2s (final loss 0.522)
+[13:36:42]   covertype s0 trained mlp in 2.1s
+[13:36:54]   covertype s0 trained mlp_ens in 11.5s
+[13:36:54]   covertype s0 trained svm in 0.3s
+[13:36:54]   covertype s0 trained gp in 0.4s
+[13:36:54]   covertype s0 trained rff in 0.0s
+[13:36:54]   covertype s0 trained knn in 0.0s
+[13:38:10] done covertype seed 0 in 9.2 min
+[13:38:44]   covertype s1 trained qnn[sym] in 33.8s (final loss 0.551)
+[13:39:18]   covertype s1 trained qnn_ens1[sym] in 34.2s (final loss 0.522)
+[13:39:51]   covertype s1 trained qnn_ens2[sym] in 32.6s (final loss 0.535)
+[13:40:24]   covertype s1 trained qnn_ens3[sym] in 33.3s (final loss 0.554)
+[13:40:54]   covertype s1 trained qnn_ens4[sym] in 29.8s (final loss 0.538)
+[13:41:25]   covertype s1 trained qnn_incomm[sym] in 30.9s (final loss 0.480)
+[13:41:55]   covertype s1 trained qnn_gdrop[sym] in 30.4s (final loss 0.574)
+[13:42:25]   covertype s1 trained qnn[half] in 30.4s (final loss 0.493)
+[13:42:54]   covertype s1 trained qnn_ens1[half] in 28.6s (final loss 0.486)
+[13:43:25]   covertype s1 trained qnn_ens2[half] in 30.7s (final loss 0.487)
+[13:43:55]   covertype s1 trained qnn_ens3[half] in 30.6s (final loss 0.491)
+[13:44:26]   covertype s1 trained qnn_ens4[half] in 30.8s (final loss 0.496)
+[13:44:57]   covertype s1 trained qnn_incomm[half] in 30.9s (final loss 0.494)
+[13:45:28]   covertype s1 trained qnn_gdrop[half] in 30.6s (final loss 0.521)
+[13:45:58]   covertype s1 trained qnn_squash in 30.7s (final loss 0.476)
+[13:46:01]   covertype s1 trained mlp in 2.2s
+[13:46:11]   covertype s1 trained mlp_ens in 10.5s
+[13:46:11]   covertype s1 trained svm in 0.3s
+[13:46:12]   covertype s1 trained gp in 0.3s
+[13:46:12]   covertype s1 trained rff in 0.0s
+[13:46:12]   covertype s1 trained knn in 0.0s
+[13:47:28] done covertype seed 1 in 9.3 min
+[13:48:01]   covertype s2 trained qnn[sym] in 32.9s (final loss 0.549)
+[13:48:32]   covertype s2 trained qnn_ens1[sym] in 31.5s (final loss 0.506)
+[13:49:04]   covertype s2 trained qnn_ens2[sym] in 31.2s (final loss 0.539)
+[13:49:35]   covertype s2 trained qnn_ens3[sym] in 31.3s (final loss 0.542)
+[13:50:10]   covertype s2 trained qnn_ens4[sym] in 34.9s (final loss 0.543)
+[13:50:40]   covertype s2 trained qnn_incomm[sym] in 30.4s (final loss 0.508)
+[13:51:11]   covertype s2 trained qnn_gdrop[sym] in 31.0s (final loss 0.565)
+[13:51:42]   covertype s2 trained qnn[half] in 30.6s (final loss 0.495)
+[13:52:12]   covertype s2 trained qnn_ens1[half] in 30.6s (final loss 0.499)
+[13:52:43]   covertype s2 trained qnn_ens2[half] in 30.4s (final loss 0.488)
+[13:53:14]   covertype s2 trained qnn_ens3[half] in 31.6s (final loss 0.510)
+[13:53:45]   covertype s2 trained qnn_ens4[half] in 30.5s (final loss 0.499)
+[13:54:16]   covertype s2 trained qnn_incomm[half] in 30.5s (final loss 0.527)
+[13:54:46]   covertype s2 trained qnn_gdrop[half] in 30.3s (final loss 0.530)
+[13:55:17]   covertype s2 trained qnn_squash in 30.8s (final loss 0.512)
+[13:55:19]   covertype s2 trained mlp in 2.1s
+[13:55:29]   covertype s2 trained mlp_ens in 10.1s
+[13:55:29]   covertype s2 trained svm in 0.3s
+[13:55:29]   covertype s2 trained gp in 0.3s
+[13:55:29]   covertype s2 trained rff in 0.0s
+[13:55:29]   covertype s2 trained knn in 0.0s
+[13:56:46] done covertype seed 2 in 9.3 min
+[13:56:54]   digits_split s0 trained qnn[sym] in 8.2s (final loss 0.235)
+[13:57:02]   digits_split s0 trained qnn_ens1[sym] in 7.9s (final loss 0.197)
+[13:57:09]   digits_split s0 trained qnn_ens2[sym] in 7.4s (final loss 0.293)
+[13:57:16]   digits_split s0 trained qnn_ens3[sym] in 6.8s (final loss 0.335)
+[13:57:24]   digits_split s0 trained qnn_ens4[sym] in 7.6s (final loss 0.192)
+[13:57:32]   digits_split s0 trained qnn_incomm[sym] in 7.7s (final loss 0.069)
+[13:57:39]   digits_split s0 trained qnn_gdrop[sym] in 7.7s (final loss 0.268)
+[13:57:47]   digits_split s0 trained qnn[half] in 7.6s (final loss 0.150)
+[13:57:54]   digits_split s0 trained qnn_ens1[half] in 7.4s (final loss 0.118)
+[13:58:02]   digits_split s0 trained qnn_ens2[half] in 7.5s (final loss 0.285)
+[13:58:09]   digits_split s0 trained qnn_ens3[half] in 7.5s (final loss 0.164)
+[13:58:17]   digits_split s0 trained qnn_ens4[half] in 7.5s (final loss 0.096)
+[13:58:24]   digits_split s0 trained qnn_incomm[half] in 7.5s (final loss 0.060)
+[13:58:31]   digits_split s0 trained qnn_gdrop[half] in 7.1s (final loss 0.409)
+[13:58:38]   digits_split s0 trained qnn_squash in 7.0s (final loss 0.129)
+[13:58:39]   digits_split s0 trained mlp in 0.3s
+[13:58:40]   digits_split s0 trained mlp_ens in 1.4s
+[13:58:40]   digits_split s0 trained svm in 0.0s
+[13:58:42]   digits_split s0 trained gp in 1.4s
+[13:58:42]   digits_split s0 trained rff in 0.0s
+[13:58:42]   digits_split s0 trained knn in 0.0s
+[13:59:06] done digits_split seed 0 in 2.3 min
+[13:59:12]   digits_split s1 trained qnn[sym] in 6.8s (final loss 0.265)
+[13:59:19]   digits_split s1 trained qnn_ens1[sym] in 6.9s (final loss 0.135)
+[13:59:26]   digits_split s1 trained qnn_ens2[sym] in 6.9s (final loss 0.300)
+[13:59:33]   digits_split s1 trained qnn_ens3[sym] in 6.4s (final loss 0.372)
+[13:59:39]   digits_split s1 trained qnn_ens4[sym] in 6.7s (final loss 0.237)
+[13:59:46]   digits_split s1 trained qnn_incomm[sym] in 7.0s (final loss 0.171)
+[13:59:54]   digits_split s1 trained qnn_gdrop[sym] in 7.3s (final loss 0.255)
+[14:00:01]   digits_split s1 trained qnn[half] in 7.6s (final loss 0.151)
+[14:00:09]   digits_split s1 trained qnn_ens1[half] in 8.2s (final loss 0.117)
+[14:00:18]   digits_split s1 trained qnn_ens2[half] in 8.7s (final loss 0.350)
+[14:00:27]   digits_split s1 trained qnn_ens3[half] in 8.4s (final loss 0.151)
+[14:00:34]   digits_split s1 trained qnn_ens4[half] in 7.4s (final loss 0.207)
+[14:00:43]   digits_split s1 trained qnn_incomm[half] in 8.6s (final loss 0.094)
+[14:00:51]   digits_split s1 trained qnn_gdrop[half] in 8.6s (final loss 0.224)
+[14:01:00]   digits_split s1 trained qnn_squash in 8.5s (final loss 0.206)
+[14:01:00]   digits_split s1 trained mlp in 0.3s
+[14:01:02]   digits_split s1 trained mlp_ens in 1.8s
+[14:01:02]   digits_split s1 trained svm in 0.0s
+[14:01:03]   digits_split s1 trained gp in 1.5s
+[14:01:03]   digits_split s1 trained rff in 0.0s
+[14:01:03]   digits_split s1 trained knn in 0.0s
+[14:01:31] done digits_split seed 1 in 2.4 min
+[14:01:39]   digits_split s2 trained qnn[sym] in 8.3s (final loss 0.489)
+[14:01:48]   digits_split s2 trained qnn_ens1[sym] in 8.2s (final loss 0.142)
+[14:01:56]   digits_split s2 trained qnn_ens2[sym] in 8.0s (final loss 0.201)
+[14:02:03]   digits_split s2 trained qnn_ens3[sym] in 7.4s (final loss 0.118)
+[14:02:11]   digits_split s2 trained qnn_ens4[sym] in 7.9s (final loss 0.122)
+[14:02:19]   digits_split s2 trained qnn_incomm[sym] in 8.2s (final loss 0.247)
+[14:02:27]   digits_split s2 trained qnn_gdrop[sym] in 7.8s (final loss 0.349)
+[14:02:35]   digits_split s2 trained qnn[half] in 7.7s (final loss 0.312)
+[14:02:42]   digits_split s2 trained qnn_ens1[half] in 7.8s (final loss 0.194)
+[14:02:51]   digits_split s2 trained qnn_ens2[half] in 8.1s (final loss 0.150)
+[14:02:59]   digits_split s2 trained qnn_ens3[half] in 8.2s (final loss 0.132)
+[14:03:07]   digits_split s2 trained qnn_ens4[half] in 8.5s (final loss 0.112)
+[14:03:15]   digits_split s2 trained qnn_incomm[half] in 7.5s (final loss 0.440)
+[14:03:22]   digits_split s2 trained qnn_gdrop[half] in 7.3s (final loss 0.294)
+[14:03:30]   digits_split s2 trained qnn_squash in 8.3s (final loss 0.085)
+[14:03:31]   digits_split s2 trained mlp in 0.2s
+[14:03:32]   digits_split s2 trained mlp_ens in 1.3s
+[14:03:32]   digits_split s2 trained svm in 0.0s
+[14:03:34]   digits_split s2 trained gp in 1.7s
+[14:03:34]   digits_split s2 trained rff in 0.0s
+[14:03:34]   digits_split s2 trained knn in 0.0s
+[14:04:03] done digits_split seed 2 in 2.5 min
+[14:04:31] E4 recurrence done for synth2d
+[14:06:03] E4 recurrence done for wine_red_white
+[14:07:16] E4 recurrence done for digits_split
+[14:07:31] E2b alias stats v2 done for synth2d
+[14:07:36] E2b alias stats v2 done for wine_red_white
+[14:07:56] E2b alias stats v2 done for mnist_fmnist
+[14:08:19] E2b alias stats v2 done for covertype
+[14:08:21] E2b alias stats v2 done for digits_split
+[14:08:21] E2b Spearman(frac_aliased_v2, QNN msp AUROC) on natural shifts: rho=0.068, p=0.24
+[14:08:22] ZIP written: /Users/atultripathi/Library/CloudStorage/OneDrive-manit.ac.in/Quantum_2/untitled folder/qnn_aliasing_results_FULL_20261018_140821.zip  (23.2 MB)
